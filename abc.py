@@ -22,7 +22,7 @@ def main():
 
     if e == 1:
         x1 = (-b+math.sqrt(d))/(2*a)
-        x2 = (b+math.sqrt(d))/(2*a)
+        x2 = (-b-math.sqrt(d))/(2*a)
         print("x1 = {},x2 = {}".format(x1,x2))
     elif e == 2:
         x1 = (-b+math.sqrt(d))/(2*a)
